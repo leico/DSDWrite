@@ -1,0 +1,66 @@
+TDSDWrite
+v6
+r1
+cCheck dependencies
+cCompileC DerivedData/DSDWrite/Build/Intermediates/DSDWrite.build/Debug/DSDWrite.build/Objects-normal/x86_64/main.o /Users/LIFE_MAC06/pro/DSP/DSDWrite/DSDWrite/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c000000005338D0D3000000000000044C
+t1396232403
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000005338D0D300000000000001DE
+t1396232403
+s478
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c000000005338D10A0000000000000ADC
+t1396232458
+s2780
+
+N/Users/LIFE_MAC06/pro/DSP/DSDWrite/DSDWrite/main.cpp
+c00000000533EF4ED000000000000010B
+t1396634861
+s267
+
+N/Users/LIFE_MAC06/pro/DSP/DSDWrite/DerivedData/DSDWrite/Build/Intermediates/DSDWrite.build/Debug/DSDWrite.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+CBuild AST from /Users/LIFE_MAC06/pro/DSP/DSDWrite/DSDWrite/main.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesf71ef66f2cefb841^7f2ff96f2cefb841^---0#1#1#--18"Check dependencies36"16EAE74D-4172-4815-9317-015388CFA44A-
+
+CCompileC DerivedData/DSDWrite/Build/Intermediates/DSDWrite.build/Debug/DSDWrite.build/Objects-normal/x86_64/main.o /Users/LIFE_MAC06/pro/DSP/DSDWrite/DSDWrite/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s418327664.026251
+e418327664.483634
+r0
+xCompileC
+xDerivedData/DSDWrite/Build/Intermediates/DSDWrite.build/Debug/DSDWrite.build/Objects-normal/x86_64/main.o
+x/Users/LIFE_MAC06/pro/DSP/DSDWrite/DSDWrite/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/LIFE_MAC06/pro/DSP/DSDWrite/DSDWrite/main.cpp
+o/Users/LIFE_MAC06/pro/DSP/DSDWrite/DSDWrite/main.cpp:15:31: error: use of undeclared identifier 'endl'; did you mean 'std::endl'?
+o        std::cout << sizeof(long) << endl;
+o                                     ^~~~
+o                                     std::endl
+oIn file included from /Users/LIFE_MAC06/pro/DSP/DSDWrite/DSDWrite/main.cpp:9:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/iostream:40:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/istream:156:
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/ostream:1188:1: note: 'std::endl' declared here
+oendl(basic_ostream<_CharT, _Traits>& __os)
+o^
+o1 error generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/LIFE_MAC06/pro/DSP/DSDWrite/DSDWrite/main.cpp194"CompileC DerivedData/DSDWrite/Build/Intermediates/DSDWrite.build/Debug/DSDWrite.build/Objects-normal/x86_64/main.o DSDWrite/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler2bdc06702cefb841^3ecf7b702cefb841^-825"/Users/LIFE_MAC06/pro/DSP/DSDWrite/DSDWrite/main.cpp:15:31: error: use of undeclared identifier 'endl'; did you mean 'std::endl'?        std::cout << sizeof(long) << endl;                                     ^~~~                                     std::endlIn file included from /Users/LIFE_MAC06/pro/DSP/DSDWrite/DSDWrite/main.cpp:9:In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/iostream:40:In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/istream:156:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/ostream:1188:1: note: 'std::endl' declared hereendl(basic_ostream<_CharT, _Traits>& __os)^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@62"Use of undeclared identifier 'endl'; did you mean 'std::endl'?-418327664#18446744073709551615#0#1(2@25"'std::endl' declared here-418327664#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@108"file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/c++/v1/ostream0000000000000000^1187#0#1187#0#35730#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/LIFE_MAC06/pro/DSP/DSDWrite/DSDWrite/main.cpp0000000000000000^14#30#14#30#244#0#14"Semantic Issue1(3@59"file:///Users/LIFE_MAC06/pro/DSP/DSDWrite/DSDWrite/main.cpp0000000000000000^14#30#14#34#244#4#-0#0#1#-19%DVTDocumentLocation4@59"file:///Users/LIFE_MAC06/pro/DSP/DSDWrite/DSDWrite/main.cpp0000000000000000^3136"CompileC DerivedData/DSDWrite/Build/Intermediates/DSDWrite.build/Debug/DSDWrite.build/Objects-normal/x86_64/main.o DSDWrite/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/LIFE_MAC06/pro/DSP/DSDWrite    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/LIFE_MAC06/pro/DSP/DSDWrite/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/LIFE_MAC06/pro/DSP/DSDWrite/DerivedData/DSDWrite/Build/Intermediates/DSDWrite.build/Debug/DSDWrite.build/DSDWrite-generated-files.hmap -I/Users/LIFE_MAC06/pro/DSP/DSDWrite/DerivedData/DSDWrite/Build/Intermediates/DSDWrite.build/Debug/DSDWrite.build/DSDWrite-own-target-headers.hmap -I/Users/LIFE_MAC06/pro/DSP/DSDWrite/DerivedData/DSDWrite/Build/Intermediates/DSDWrite.build/Debug/DSDWrite.build/DSDWrite-all-target-headers.hmap -iquote /Users/LIFE_MAC06/pro/DSP/DSDWrite/DerivedData/DSDWrite/Build/Intermediates/DSDWrite.build/Debug/DSDWrite.build/DSDWrite-project-headers.hmap -I/Users/LIFE_MAC06/pro/DSP/DSDWrite/DerivedData/DSDWrite/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/LIFE_MAC06/pro/DSP/DSDWrite/DerivedData/DSDWrite/Build/Intermediates/DSDWrite.build/Debug/DSDWrite.build/DerivedSources/x86_64 -I/Users/LIFE_MAC06/pro/DSP/DSDWrite/DerivedData/DSDWrite/Build/Intermediates/DSDWrite.build/Debug/DSDWrite.build/DerivedSources -F/Users/LIFE_MAC06/pro/DSP/DSDWrite/DerivedData/DSDWrite/Build/Products/Debug -MMD -MT dependencies -MF /Users/LIFE_MAC06/pro/DSP/DSDWrite/DerivedData/DSDWrite/Build/Intermediates/DSDWrite.build/Debug/DSDWrite.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/LIFE_MAC06/pro/DSP/DSDWrite/DerivedData/DSDWrite/Build/Intermediates/DSDWrite.build/Debug/DSDWrite.build/Objects-normal/x86_64/main.dia -c /Users/LIFE_MAC06/pro/DSP/DSDWrite/DSDWrite/main.cpp -o /Users/LIFE_MAC06/pro/DSP/DSDWrite/DerivedData/DSDWrite/Build/Intermediates/DSDWrite.build/Debug/DSDWrite.build/Objects-normal/x86_64/main.o36"AB9B9E13-6AC1-43E0-9A3F-697E36403DAF-
+bAD5F42AD-4FE3-4F4A-9F8E-0C85A51A51A2
+
+CLd /Users/LIFE_MAC06/pro/DSP/DSDWrite/DerivedData/DSDWrite/Build/Products/Debug/DSDWrite normal x86_64
+r0
+
